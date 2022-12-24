@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">二维码扫描组件</string>
+    <string name="footer_desc">设置默认在快速设置磁贴内快捷打开的扫码组件。\n若未安装指定应用时将不会启动任何组件。</string>
+    <string name="none">无操作</string>
+    <string name="google_lens">Google Lens 智能镜头</string>
+    <string name="qq">QQ扫码</string>
+    <string name="wechat">微信扫码</string>
+    <string name="header_title">默认扫码组件</string>
+    <string name="alipay">支付宝扫码</string>
+    <string name="always_dialog">每次打开都进行选择</string>
+    <string name="label_settings">二维码扫描组件设置</string>
+    <string name="dialog_message">选择要启动的应用</string>
+    <string name="dialog_cancel">取消</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QrCodeScanner</string>
+    <string name="none">Do nothing</string>
+    <string name="footer_desc">Set the QR Code Scanner component that is quickly opened in the quick setting magnetic patch by default. No component will be started if the specified application is not installed.</string>
+    <string name="google_lens">Google Lens</string>
+    <string name="qq">QQ</string>
+    <string name="wechat">WeChat</string>
+    <string name="header_title">Default QR Code Scanner component</string>
+    <string name="alipay">Ali Pay</string>
+    <string name="footer_info" translatable="false">footer info</string>
+    <string name="always_dialog">Select each time when launch</string>
+    <string name="label_settings">QR Code Apps Settings</string>
+    <string name="dialog_message">Choose app to launch</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>

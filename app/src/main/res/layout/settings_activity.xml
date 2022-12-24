@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/scanner_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/system_accent"
+            android:text="@string/header_title" />
+
+        <RadioButton
+            android:id="@+id/alipay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/alipay" />
+
+        <RadioButton
+            android:id="@+id/wechat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/wechat" />
+
+        <RadioButton
+            android:id="@+id/qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/qq" />
+
+        <RadioButton
+            android:id="@+id/lens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/google_lens" />
+
+        <RadioButton
+            android:id="@+id/always"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/always_dialog" />
+
+        <RadioButton
+            android:id="@+id/none_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:checked="true"
+            android:text="@string/none" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_info"
+            android:contentDescription="@string/footer_info" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/footer_desc"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_title_list">
+        <item>@string/alipay</item>
+        <item>@string/wechat</item>
+        <item>@string/qq</item>
+        <item>@string/google_lens</item>
+    </string-array>
+</resources>
