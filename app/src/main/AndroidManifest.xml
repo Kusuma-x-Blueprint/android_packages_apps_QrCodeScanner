@@ -20,7 +20,25 @@
             android:label="@string/label_settings"
             android:theme="@style/Theme.QrCodeScanner"
             android:exported="true"
-            android:launchMode="singleTop"/>
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="-256" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_qr_code_scanner" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/summary_text" />
+        </activity>    
     </application>
 
 </manifest>

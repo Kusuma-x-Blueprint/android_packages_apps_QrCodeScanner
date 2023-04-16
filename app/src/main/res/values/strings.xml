@@ -12,4 +12,5 @@
     <string name="label_settings">QR Code Apps Settings</string>
     <string name="dialog_message">Choose app to launch</string>
     <string name="dialog_cancel">Cancel</string>
+    <string name="summary_text">Sets the QR Code Scanner App that opens from QS tiles</string>
 </resources>
