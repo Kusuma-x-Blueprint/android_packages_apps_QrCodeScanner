@@ -58,13 +58,13 @@ public class QRCodeScannerActivity extends Activity {
         int options = 0;
         new AlertDialog.Builder(this)
                 .setTitle(R.string.app_name)
-                .setCancelable(true)
+                .setCancelable(false)
                 .setSingleChoiceItems(
                         getResources().getStringArray(R.array.app_title_list), options, (dialog, which) -> {
                             launchScanner(which+1);
                             finish();
                         })
-                .setNegativeButton(R.string.dialog_cancel,null)
+                .setNegativeButton(R.string.dialog_cancel, (dialogInterface, i) -> finish())
                 .show();
     }
 
